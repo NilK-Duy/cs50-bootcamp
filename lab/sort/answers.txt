@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: time ./sort1 reversed10000.txt, real time: 0.308s it has longer real run time than sort3.
+
+sort2 uses: merge sort
+
+How do you know?: time ./sort2 random10000.txt, it has the shortest real run time.
+
+sort3 uses: selection sort
+
+How do you know?: time ./sort3 reversed10000.txt, real time: 0.145s it has shorter real run time than sort1.
